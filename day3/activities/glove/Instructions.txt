@@ -1,0 +1,67 @@
+Glove:
+
+0. Copy audio files to sound board.
+(It works as a flash USB)
+
+1. Get Arduino:
+https://www.arduino.cc/en/Main/Software
+
+2. Build the circuits:
+Check out the folder called Circuits.
+You might want to build it by parts to check out the libraries.
+
+3. Libraries:
+Libraries for the 3 components: color sensor, trinket, and sound driver;
+
+* Trinket: 
+1) Go to Arduino --> Preferences (also accessible with ctrl+comma)
+2) In the Additional Boards Manager URL box, paste "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json"
+3) Go to Tools --> Boards: Arduino/Genuino UNO --> Boards Manager
+4) Search "Trinket" and click on the result that pops up. Click on "install."
+
+
+* Color Sensor Library: 
+https://github.com/adafruit/Adafruit_TCS34725
+1) Manually download from github
+2) Go to Sketch --> Include libraries --> Libraries Manager. Type "Color Sensor" in the search to ensure it is installed.
+
+* Sound Board Library: 
+Go to Sketch --> Include libraries --> Libraries Manager. Type "Sound" in the search. Find the "Adafruit Soundboard Library" and click on it. Then click on the "install" button.
+
+* Uv-Vis-IR Sensor:
+https://github.com/adafruit/Adafruit_SI1145_Library
+1) Manually download from github
+2) Go to Sketch --> Include libraries --> Libraries Manager. Type "UV Sensor" in the search to ensure it is installed.
+
+
+5. Uploading Arduino Code to Trinket: 
+
+1) Go to Tools --> Board. Select the "Pro Trinket 5V/16MHz (USB)"
+2) Go to Tools --> Programmer. Select the "USBTinyISP"
+3) Press the checkmark to verify the sketch
+4) Press the reset button (on the arduino trinket), and while the red light is flashing, press the upload button (right arrow key in green circle).
+
+4. Test some hardware:
+
+* Color Sensor Library:
+
+* Sound Board Library: 
+
+* UV Sensor:
+
+* Volume Test
+
+5. Color view.
+
+6. Build the all circuits.
+
+7. When you are ready, design the set-up for including it into a glove.
+
+Further information:
+
+RGB Sensor:
+https://www.adafruit.com/products/1334gclid=CjwKEAiAsMXBBRD71KWOh6fcjRwSJAC5CNE1RGAot2xkxd4Je_UXZBQKE0CSURkQrWuSb2J3BHIGbhoCr1rw_wcB
+https://learn.adafruit.com/adafruit-color-sensors/assembly-and-wiring
+
+UV-Vis-IR Sensor:
+https://learn.adafruit.com/adafruit-si1145-breakout-board-uv-ir-visible-sensor
