@@ -1,5 +1,5 @@
 README.md
-*.tex
-logos/
-figures/
-run.py
+**/*.tex
+**/logos/
+**/figures/
+**/run.py
